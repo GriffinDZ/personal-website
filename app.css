@@ -1,0 +1,24 @@
+#mainContainer {
+    padding: 0;
+    margin: 0;
+    width: 98%;
+}
+
+#mainRow {
+    justify-content: flex-start;
+}
+
+#textCol {
+    max-height:100vh;
+    overflow-y: scroll;
+}
+
+#photoCol {
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+#mainImage {
+    height: 100vh;
+}
