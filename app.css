@@ -1,3 +1,7 @@
+body { 
+    font-family: 'Merriweather', serif;
+}
+
 #mainContainer {
     background-color: rgb(221, 221, 221);
 }
@@ -33,6 +37,7 @@
 }
 
 #nameSubTitle {
+    font-style:italic;
     animation-duration: 0.5s;
     animation-delay: 4.1s;
     animation-name: fadein, slideup;
@@ -46,7 +51,7 @@
 
 #textCol {
     max-height:100vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #textWrapper {
@@ -69,6 +74,7 @@
 
 #photoCred {
     font-style: italic;
+    margin-top: 5%;
 }
 
 #photoCol {
