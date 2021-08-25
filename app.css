@@ -1,7 +1,21 @@
 #mainContainer {
-    padding: 0;
-    margin: 0;
-    width: 98%;
+    background-color: rgb(221, 221, 221);
+}
+
+#greeting, #nameSubTitle {
+    font-size: 200%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#greeting {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+#nameTitle {
+    font-size: 500%;
+    font-weight: bold;
 }
 
 #mainRow {
@@ -13,12 +27,29 @@
     overflow-y: scroll;
 }
 
+#textWrapper {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+}
+
+#question {
+    font-weight: bold;
+}
+
+#photoCred {
+    font-style: italic;
+}
+
 #photoCol {
-    max-height: 100vh;
-    min-height: 100vh;
+    height: 100vh;
     overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 #mainImage {
-    height: 100vh;
+    max-height: 90%;
+    border-radius: 25px;
 }
+
