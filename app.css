@@ -16,7 +16,7 @@
     font-style: italic;
     margin-left: 60px;
     animation-duration: 0.5s;
-    animation-delay: 1.1s;
+    animation-delay: 1.4s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -26,7 +26,7 @@
     font-size: 500%;
     font-weight: bold;
     animation-duration: 1.2s;
-    animation-delay: 1.7s;
+    animation-delay: 2.3s;
     animation-name: fadein;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -34,7 +34,7 @@
 
 #nameSubTitle {
     animation-duration: 0.5s;
-    animation-delay: 3.5s;
+    animation-delay: 4.1s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -59,9 +59,9 @@
     font-weight: bold;
 }
 
-#question, #answer {
+#question, #answer, #photoCred {
     animation-duration: 0.5s;
-    animation-delay: 5s;
+    animation-delay: 6.0s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -90,6 +90,14 @@
 
 #italic {
     font-style:italic;
+}
+
+a {
+    color: inherit;    
+}
+
+a:hover {
+    color:rgb(94, 94, 94);
 }
 
 @keyframes fadein {
