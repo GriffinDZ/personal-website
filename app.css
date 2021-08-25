@@ -79,7 +79,6 @@ body {
 
 #photoCol {
     height: 100vh;
-    overflow-y: hidden;
     justify-content: center;
     align-items: center;
 }
@@ -124,4 +123,32 @@ a:hover {
     to {
         padding-top: 0%;
     }
+}
+
+@media (max-width: 960px) {
+    
+    #greeting, #nameTitle, #nameSubTitle, #question, #answer, #photoCred, #mainImage {
+        opacity: 100;
+        animation-name: none;
+    }
+
+    #greeting, #nameTitle, #nameSubTitle {
+        text-align: center;
+    }
+
+    #greeting {
+        margin-left: 0px;
+    }
+
+    #textCol {
+        max-height: 100%;
+    }
+
+   #mainImage {
+       max-height: 100%;
+   }
+   #photoCol {
+       max-height: 90vh;
+   }
+
 }
