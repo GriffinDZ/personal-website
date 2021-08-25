@@ -125,7 +125,7 @@ a:hover {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 991px) {
     
     #greeting, #nameTitle, #nameSubTitle, #question, #answer, #photoCred, #mainImage {
         opacity: 100;
@@ -142,6 +142,11 @@ a:hover {
 
     #textCol {
         max-height: 100%;
+    }
+
+    #textWrapper {
+        margin-right: 0%;
+        padding-right: 0%;
     }
 
    #mainImage {
