@@ -2,6 +2,10 @@
     background-color: rgb(221, 221, 221);
 }
 
+#greeting, #nameTitle, #nameSubTitle, #question, #answer, #photoCred, #mainImage {
+    opacity: 0;
+}
+
 #greeting, #nameSubTitle {
     font-size: 200%;
     margin-bottom: 20px;
@@ -10,12 +14,30 @@
 
 #greeting {
     font-style: italic;
-    margin-left: 50px;
+    margin-left: 60px;
+    animation-duration: 0.5s;
+    animation-delay: 1.1s;
+    animation-name: fadein, slideup;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
 #nameTitle {
     font-size: 500%;
     font-weight: bold;
+    animation-duration: 1.2s;
+    animation-delay: 1.7s;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+#nameSubTitle {
+    animation-duration: 0.5s;
+    animation-delay: 3.5s;
+    animation-name: fadein, slideup;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
 #mainRow {
@@ -37,6 +59,14 @@
     font-weight: bold;
 }
 
+#question, #answer {
+    animation-duration: 0.5s;
+    animation-delay: 5s;
+    animation-name: fadein, slideup;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
 #photoCred {
     font-style: italic;
 }
@@ -51,5 +81,33 @@
 #mainImage {
     max-height: 90%;
     border-radius: 25px;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
+#italic {
+    font-style:italic;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+@keyframes slideup {
+    from {
+        padding-top: 2.5%;
+    }
+
+    to {
+        padding-top: 0%;
+    }
+}
