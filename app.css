@@ -19,8 +19,8 @@ body {
 #greeting {
     font-style: italic;
     margin-left: 60px;
-    animation-duration: 0.5s;
-    animation-delay: 1.4s;
+    animation-duration: 0.3s;
+    animation-delay: 0.6s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -29,8 +29,8 @@ body {
 #nameTitle {
     font-size: 500%;
     font-weight: bold;
-    animation-duration: 1.2s;
-    animation-delay: 2.3s;
+    animation-duration: 0.4s;
+    animation-delay: 0.6s;
     animation-name: fadein;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -38,8 +38,8 @@ body {
 
 #nameSubTitle {
     font-style:italic;
-    animation-duration: 0.5s;
-    animation-delay: 4.1s;
+    animation-duration: 0.4s;
+    animation-delay: 0.6s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -65,8 +65,8 @@ body {
 }
 
 #question, #answer, #photoCred {
-    animation-duration: 0.5s;
-    animation-delay: 6.0s;
+    animation-duration: 0.4s;
+    animation-delay: 0.8s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
@@ -86,7 +86,7 @@ body {
 #mainImage {
     max-height: 90%;
     border-radius: 25px;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
     animation-delay: 0.3s;
     animation-name: fadein;
     animation-fill-mode: forwards;
@@ -117,7 +117,7 @@ a:hover {
 
 @keyframes slideup {
     from {
-        padding-top: 2.5%;
+        padding-top: 1.5%;
     }
 
     to {
