@@ -127,6 +127,19 @@ a:hover {
 
 @media (max-width: 991px) {
     
+    #textWrapper h2 {
+        font-size: 25px;
+    }
+
+    #textWrapper h1 {
+        font-size: 50px;
+    }
+
+    #textWrapper h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
     #greeting, #nameTitle, #nameSubTitle, #question, #answer, #photoCred, #mainImage {
         opacity: 100;
         animation-name: none;
